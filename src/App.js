@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://ark.nutpasty.shop/ne/';
+            window.location.href = 'https://ark.nutpasty.shop/tb/';
         }, 2000);
 
         return () => clearTimeout(timer);
